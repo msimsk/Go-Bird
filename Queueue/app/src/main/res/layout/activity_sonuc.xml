@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sonuc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.simsekmustafamustafagmail.queueue.sonuc"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/walpapper">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toplamSkorEtiketi"
+        android:text="150"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OYUN BİTTİ"
+        android:textStyle="italic"
+        android:textSize="70sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/skorEtiketi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textStyle="italic"
+        android:textSize="50sp"/>
+    <TextView
+        android:id="@+id/yuksekSkorEtiketii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yüksek Skor : 300"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Tekrar Deneyin"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:onClick="tekrarDeneyin"
+        android:background="#1ce7be" />
+</LinearLayout>
